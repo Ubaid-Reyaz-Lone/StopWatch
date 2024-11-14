@@ -22,7 +22,7 @@ function watchStart() {
   if (timer !== null) {
     clearInterval(timer);
   }
-  timer = setInterval(stopwatch, 10);
+  timer = setInterval(stopwatch, 1000);
 }
 function watchStop() {
   clearInterval(timer);
